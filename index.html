@@ -4,60 +4,105 @@
     <meta charset="utf-8">
     <style >
       /* GLOBAL STYLES*/
-      a {
-        color: red;
+      html, body {
+        margin: 0;
+        padding: 0;
       }
 
+      h1 {
+        margin-top: 0;
+        font-size: 7vw;
+      }
+   
+      a {
+        color: #f00;
+      }
+
+      /*HERO STYLES*/
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vh;
+        width: 75vw;
+      }
+
+
       /*SOCIAL STYLES*/
+      .social-link {
+        background: rgba(150, 150, 150, 0.20)
+      }
       a.social-link {
         color: blue;
+        
       }
-    
+
       /*BIO STYLES*/
+      .bio-wrapper {
+        /*width: 500px;*/
+        font-size: 24px;
+      }
       .bio-box {
         border: 1px solid black;
+        width: 50%;
+       /* margin: 10%;*/
+        font-size: 1rem;
+        padding: 20px;
+      }
+      .bio-box h3 {
+        font-size: 1.5em;
       }
       .bio-copy a {
         color: green;
+        font-size: 1em;
+       
       }
+      .bio-copy  {
+        border: 1px solid green;
+        font-size: 1em;
+      }
+
+
  
 
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
-    <ul>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-    </ul>
-    <h2>I'm an h2</h2>
-    <div class="bio-box">
-      <h3>Michael Hartl</h3>
-      <a href="https://twitter.com/mhartl" class="social-link">here</a>
-      <div class="bio-copy">
-        <p>
-          Known for his dazzling charm, rapier wit, and unrivaled humility,
-          Michael is the creator of the
-          <a href="https://www.railstutorial.org/">Ruby on Rails
-          Tutorial</a> and principal author of the
-          <a href="https://learnenough.com/">
-          Learn Enough to Be Dangerous</a> introductory sequence. Michael
-          is also notorious as the founder of
-          <a href="http://tauday.com/">Tau Day</a> and author of
-          <a href="http://tauday.com/tau-manifesto"><em>The Tau
-          Manifesto</em></a>, but rumors that he's secretly a supervillain
-          are slightly exaggerated.
-        </p>
-    </div>
-   
-    </div>
+    <div class="full-hero hero-home">
+      <h1>I'm an h1</h1>
+      <ul>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+      </ul>
+  </div>
+    
+      <h2>I'm an h2</h2>
+      <div class="bio-wrapper">
+        <div class="bio-box">
+          <h3>Michael Hartl</h3>
+          <a href="https://twitter.com/mhartl" class="social-link">here</a>
+          <div class="bio-copy">
+            <p>
+              Known for his dazzling charm, rapier wit, and unrivaled humility,
+              Michael is the creator of the
+              <a href="https://www.railstutorial.org/">Ruby on Rails
+              Tutorial</a> and principal author of the
+              <a href="https://learnenough.com/">
+              Learn Enough to Be Dangerous</a> introductory sequence. Michael
+              is also notorious as the founder of
+              <a href="http://tauday.com/">Tau Day</a> and author of
+              <a href="http://tauday.com/tau-manifesto"><em>The Tau
+              Manifesto</em></a>, but rumors that he's secretly a supervillain
+              are slightly exaggerated.
+            </p>
+          </div>
+        </div>
+      
     <div class="bio-box">
       <h3>Lee Donahoe</h3>
       <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
@@ -82,6 +127,7 @@
         </p>
       </div>
     </div>
+  </div>
     <div class="bio-box">
       <h3>??</h3>
       <p>
