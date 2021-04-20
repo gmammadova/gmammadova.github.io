@@ -54,7 +54,7 @@ html {
 body {
   background-color: #000;
   display: flex;
-  font-family: Arial, Helvetica, sans;
+  font-family: 'Open Sans', Arial, Helvetica, sans;
   flex-direction: column;
   min-height: 100vh;
 }
@@ -63,6 +63,10 @@ body {
   display: flex;
   flex: 1 1 auto;
   padding-top: 10vh;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
 }
 h1 {
   font-size: 7vw;
@@ -375,16 +379,16 @@ p {
   color: #fff;
   display: inline-block;
   font-family: Arial, Helvetica, sans;
-  font-size: 1em;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
   margin-bottom: 1.5em;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list {
   list-style: none;
@@ -542,7 +546,7 @@ width: 100%;
 }
 .post-header img,
 .post-header {
-  margin-bottom: 1.5em;
+  margin-bottom: 2.5em;
 }
 .post-header img {
   border-radius: 99px;
