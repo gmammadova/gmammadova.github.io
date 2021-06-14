@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+  <title>TODO</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/wet/theme.min.css">
+
+  <noscript>
+    <link rel="stylesheet" href="https://wet-boew.github.io/wet-boew/wet-boew/css/noscript.css" />
+  </noscript>
+</head>
+
+<body vocab="https://schema.org/" typeof="WebPage">
+  <nav>
+    <ul id="wb-tphp">
+      <li class="wb-slc">
+        <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+      </li>
+      <li class="wb-slc visible-sm visible-md visible-lg">
+        <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+      </li>
+    </ul>
+  </nav>
+  <header role="banner">
+    <div id="wb-bnr">
+      <section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+        <h2>Search and menus</h2>
+        <ul class="pnl-btn list-inline text-right">
+          <li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl"
+              class="overlay-lnk btn btn-sm btn-default" role="button"><span
+                class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span
+                    class="wb-inv">Search and menus</span></span></span></a></li>
+        </ul>
+        <div id="mb-pnl"></div>
+      </section>
+      <div class="container">
+        <div class="row">
+          <div id="wb-sttl" class="col-md-9">
+            <a href="/">
+              <img src="/images/logo.png" alt="">
+              <span>Learn Enough<span class="wb-inv">, </span><small>To be dangerous</small></span>
+            </a>
+          </div>
+          <section class="col-md-3 visible-md visible-lg">
+            <nav role="navigation" id="wb-sm" data-ajax-replace="/wet/ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement" style="background: none; margin-top: 5px;">
+              <!--Loaded via Ajax-->
+            </nav>
+          </section>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main property="mainContentOfPage" class="container">
+    {{ content }}
+  </main>
+
+  <footer>
+    <p class="text-center">2021, built by Gulchaman for learning Web Experience Toolkit</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="/js/wet/wet-boew.min.js"></script>
+
+</body>
+
+</html>
